@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    background-color: orange;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.login {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 560px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    display: block;
+    background-image: url(../imagem/form-img.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.form {
+    display: block;
+    padding: 10px;
+}
+
+.form>h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form>h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.box {
+    align-items: center;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #B7BF99;
+    border-radius: 8px;
+    border: 1px solid #B7BF99;
+    margin: 10px 0px;
+}
+
+.box>input {
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.box>input:focus-within {
+    background-color: rgb(250, 250, 234);
+}
+
+form>p>input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #53736A;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form>p>input[type=submit]:hover {
+    background-color: #6A8C69;
+    transition: 0.2s;
+}
+
+.link {
+    color: black;
+    display: block;
+    margin: 15px;
+    text-align: center;
+    font-size: 17px;
+
+}
